@@ -1,3 +1,1 @@
-# alx-low_level_programming
-ALX c programming 
-new project
+create REPO ALX-low
