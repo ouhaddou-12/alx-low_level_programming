@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet - utilizes on the _putchar function to print
+ * print_alphabet_x10 - utilizes on the _putchar function to print
 */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-int i;
-for (i = 0; i < 10; i++)
+int i, j;
+for (j = 0; j < 10; j++)
 {
-int a;
-for (a = 97; a < 123; a++)
+for (i = 97; i < 123; i++)
 {
-_putchar(a);
-}
 _putchar(i);
 }
 _putchar('\n');
+}
 }
