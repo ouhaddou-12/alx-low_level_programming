@@ -3,19 +3,22 @@
 #include <stdlib.h>
 
 /**
- * print_last_digit - absolute value
- *
- * @n: takes integer type input for function
- *
- * Return: return last digit
+ * jack_bauer - print every minutes of the day
 */
 
 void jack_bauer(void)
 {
-int j;
-for (j = 0; j < 1440; j++)
+int i, j;
+for (j = 0; j <= 23; j++)
 {
-_putchar(j);
-}
+for (i = 0; i <= 59; i++)
+{
+_putchar((j / 10) + 48);
+_putchar((j % 10) + 48);
+_putchar(':');
+_putchar((i / 10) + 48);
+_putchar((i % 10) + 48);
 _putchar('\n');
+}
+}
 }
