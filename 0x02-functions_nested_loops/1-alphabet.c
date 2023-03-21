@@ -9,7 +9,7 @@
 */
 
 /* betty style doc for function main goes there */
-int main(void)
+void print_alphabet(void)
 {
 	int n = 97;
 
@@ -19,5 +19,4 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
-	return (0);
 }
