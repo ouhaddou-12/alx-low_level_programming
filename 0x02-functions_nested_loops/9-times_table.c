@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * times_table - printing table with number
 */
