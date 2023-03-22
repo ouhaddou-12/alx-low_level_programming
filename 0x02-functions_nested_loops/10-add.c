@@ -3,12 +3,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * add adition number,
- *
- * @a first num
- * @b second num
- *
- * return (0);
+ * * add - addition numbers
+ * @a: first number
+ * @b: second number
+ * Return: always 0
 */
 
 int add(int a, int b)
