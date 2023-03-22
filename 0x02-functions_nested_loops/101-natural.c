@@ -2,12 +2,12 @@
 #include <ctype.h>
 #include <stdio.h>
 /**
- *  * main - divide on 3 and 5
- *   *
- *    * description: odd or even
- *     *
- *      * Return: always 0 (Success)
- *      */
+ * main - divide on 3 and 5
+ *
+ * description: odd or even
+ *
+ * Return: always 0 (Success)
+*/
 
 int main(void)
 {
