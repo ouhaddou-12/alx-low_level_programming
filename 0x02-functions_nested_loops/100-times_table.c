@@ -1,45 +1,47 @@
 #include "main.h"
-#include <ctype.h>
 #include <stdlib.h>
-
 /**
- * times_table - printing table with number
+ * print_times_table - printing table with number
+ * @n: number of loop
  */
-
-void times_table(void)
+void print_times_table(int n)
 {
-int i, j, mult, n, pre;
-if (n < 15 || n > 0)
+if (n <= 15 && n >= 0)
 {
+int i, j, mult, pre;
 for (i = 0; i <= n; i++)
 {
 for (j = 0; j <= n; j++)
 {
 mult = j * i;
-if (mult <= n)
+if (mult <= 9)
 {
 printf("%d", mult);
 if (j != n)
 {
 pre = i * (j + 1);
-if (pre <= n)
-{
+if (pre <= 9)
+printf(",   ");
+else
 printf(",  ");
 }
-else
+}
+else if (mult <= 99)
 {
-printf(", ");
-}
-}
+printf("%d", mult);
+if (j != n)
+{
+pre = i * (j + 1);
+if (pre <= 99)
+printf(",  ");
+else
+printf(", "); }
 }
 else
 {
 printf("%d", mult);
 if (j != n)
-{
-printf(", ");
-}
-}
+printf(", "); }
 }
 printf("\n");
 }
