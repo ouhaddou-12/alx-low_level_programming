@@ -36,14 +36,14 @@ pre = i * (j + 1);
 if (pre <= 99)
 printf(",  ");
 else
-printf(", ");}
+printf(", "); }
 }
 else
 {
 printf("%d", mult);
 if (j != n)
-printf(", ");}
+printf(", "); } 
 }
-printf("\n");}
+printf("\n"); }
 }
 }
