@@ -42,7 +42,7 @@ else
 {
 printf("%d", mult);
 if (j != n)
-printf(", "); } 
+printf(", "); }
 }
 printf("\n"); }
 }
