@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * print_diagonal - printing a line diagonal
- * @n: number of diagonal
-*/
+ * print_square - prints a square of size size
+ * @size: size of the shape
+ * Prince Solomon
+ * Return: void
+ */
 void print_square(int size)
 {
 	int i, j;
