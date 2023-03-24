@@ -2,22 +2,20 @@
 #include <stdio.h>
 
 /**
- * main - entery point
- * factors - print factor of number
- * description: program prints largest prime factor of the number
- * return: (0);
+ * main - prints the largest prime factor of 612852475143
+ * Prince Solomon
+ * Return: always 0
 */
 
 int main(void)
 {
-long int i, n = 612852475143;
+	unsigned long int i, n = 612852485143;
 
-for (i = 0; i <= n; i++)
-{
-	if (n % i == 0)
+	for (i = 3; i < 782849; i = i + 2)
 	{
-		printf("%lu", i);
-		printf("\n");
+		while ((n % i == 0) && (n != i))
+			n = n / i;
 	}
-}
+	printf("%lu\n", n);
+	return (0);
 }
