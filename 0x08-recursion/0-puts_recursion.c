@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include "_putchar.c"
 
 /**
  * _puts_recursion - function that print string
