@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+#include <string.h>
 /**
  * main - Prints the result of multiplying two numbers
  * followed by a new line
@@ -19,10 +21,10 @@ int main(int argc, char *argv[])
 	{
 		int a = atoi(argv[1]);
 		int b = atoi(argv[2]);
-		int i;
+		int r;
 
 		result = a * b;
-		printf("%d\n", i);
+		printf("%d\n", r);
 	}
 	return (0);
 }
