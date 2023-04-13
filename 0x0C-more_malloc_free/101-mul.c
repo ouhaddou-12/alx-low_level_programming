@@ -57,7 +57,7 @@ void errors(void)
 int main(int argc, char *argv[])
 {
 	char *s1, *s2;
-	int l1, l2, l, i, c, d1, d2, *, a = 0;
+	int l1, l2, l, i, c, d1, d2, *r, a = 0;
 
 	s1 = argv[1], s2 = argv[2];
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
