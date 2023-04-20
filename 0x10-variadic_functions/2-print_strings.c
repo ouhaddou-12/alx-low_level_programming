@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-#include "main.h"
+#include <stdlib.h>
 
 /**
  * print_strings - prints strings.
